@@ -8,18 +8,18 @@ given loans. Specifically, you will be comparing the Logistic Regression model a
 
 # Process
 
-***1. Predict
+***1. Predict***
 
   - You will be creating and comparing two models on this data: a Logistic Regression, and a Random Forests Classifier. 
   Before you create, fit, and score the models, make a prediction as to which model you think will perform better. 
   You do not need to be correct!
   
-***2. Train Test Split
+***2. Train Test Split***
 
   - Create the features DataFrame, X, by removing the loan_status column. Create y, the labels set, by using the 
   loan_status column. Split the data into training and testing datasets by using the train_test_split function.
   
-***3. Create, Fit, and Compare Models
+***3. Create, Fit, and Compare Models***
 
   - Create a Logistic Regression model, fit it to the training data that you created in the previous step. Then, determine the 
   model's score by using the score function and the testing data from the previous step. Do the same for a Random Forest Classifier. 
